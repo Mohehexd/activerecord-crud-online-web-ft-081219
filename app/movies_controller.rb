@@ -62,7 +62,7 @@ end
 def can_find_using_where_clause_and_be_sorted
   # For this test return all movies released after 2002 and ordered by 
   # release date descending
-  # __ 
+  __
 end
 
 def can_be_found_updated_and_saved
@@ -98,5 +98,5 @@ def can_destroy_all_items_at_once
   10.times do |i|
     Movie.create(title: "Movie_#{i}")
   end
-  __
+  Movie.delete 
 end
